@@ -1,0 +1,77 @@
+
+=============== 20-11-2025 22:02:32 ===============
+[20-11-2025 22:02:43] COMMAND: help
+[20-11-2025 22:02:55] COMMAND: history
+[20-11-2025 22:02:59] COMMAND: exit
+=============== 20-11-2025 22:02:59 ===============
+
+
+=============== 20-11-2025 22:03:02 ===============
+[20-11-2025 22:03:05] COMMAND: help
+[20-11-2025 22:05:42] COMMAND: list songs
+[20-11-2025 22:05:42] COMMAND: list albums
+[20-11-2025 22:05:55] COMMAND: helpcreate album Rock Classics, Various Artists
+[20-11-2025 22:05:55] COMMAND: create album Queen Collection, Queen
+[20-11-2025 22:05:55] COMMAND: create album Best of the 90s, Various Artists
+[20-11-2025 22:06:13] COMMAND: list albumscreate album Rock Classics, Various Artists
+[20-11-2025 22:06:38] COMMAND: create album RockClassics VariousArtists
+[20-11-2025 22:06:52] COMMAND: create album RockClassics, VariousArtists
+[20-11-2025 22:07:10] COMMAND: create album QueenCollection, Queen
+[20-11-2025 22:07:20] COMMAND: create album Bestofthe90s, VariousArtists
+[20-11-2025 22:07:29] COMMAND: list albums
+[20-11-2025 22:07:51] COMMAND: create album Rock Classics, Various Artists
+[20-11-2025 22:08:14] COMMAND: add to album Rock Classics, Bohemian Rhapsody
+[20-11-2025 22:08:25] COMMAND: view album Rock Classics
+[20-11-2025 22:08:57] COMMAND: show playlist
+[20-11-2025 22:09:06] COMMAND: add song hi
+
+=============== 20-11-2025 22:09:11 ===============
+[20-11-2025 22:09:12] COMMAND: exit
+=============== 20-11-2025 22:09:12 ===============
+
+
+=============== 20-11-2025 22:09:25 ===============
+[20-11-2025 22:09:26] COMMAND: play
+[20-11-2025 22:09:26] COMMAND: now playing
+[20-11-2025 22:09:26] COMMAND: next
+[20-11-2025 22:09:26] COMMAND: now playing
+[20-11-2025 22:09:26] COMMAND: next
+[20-11-2025 22:09:26] COMMAND: now playing
+[20-11-2025 22:09:26] COMMAND: prev
+[20-11-2025 22:09:26] COMMAND: now playing
+[20-11-2025 22:09:31] COMMAND: pauseclear playlist
+[20-11-2025 22:09:31] COMMAND: add song Imagine
+[20-11-2025 22:09:31] COMMAND: add song Hey Jude
+[20-11-2025 22:09:32] COMMAND: add song Billie Jean
+[20-11-2025 22:09:32] COMMAND: show playlist
+[20-11-2025 22:09:32] COMMAND: play
+[20-11-2025 22:09:32] COMMAND: next
+[20-11-2025 22:09:32] COMMAND: next
+[20-11-2025 22:09:32] COMMAND: next
+[20-11-2025 22:09:32] COMMAND: next
+[20-11-2025 22:09:32] COMMAND: # Should cycle back to "Imagine"
+[20-11-2025 22:09:33] COMMAND: show playlist
+[20-11-2025 22:09:40] COMMAND: view album Rock Classics
+[20-11-2025 22:09:40] COMMAND: remove from album Rock Classics, Hotel California
+[20-11-2025 22:09:58] COMMAND: view album Rock Classicsexit
+[20-11-2025 22:10:01] COMMAND: exit
+=============== 20-11-2025 22:10:01 ===============
+
+
+=============== 20-11-2025 22:19:42 ===============
+[20-11-2025 22:19:54] COMMAND: help
+[20-11-2025 22:19:59] COMMAND: list albums
+[20-11-2025 22:20:16] COMMAND: create album UTOPIA, Travis Scott
+[20-11-2025 22:20:23] COMMAND: list albums
+[20-11-2025 22:20:39] COMMAND: add song hi
+[20-11-2025 22:20:47] COMMAND: exit
+=============== 20-11-2025 22:20:47 ===============
+
+
+=============== 20-11-2025 22:20:49 ===============
+[20-11-2025 22:20:52] COMMAND: help
+[20-11-2025 22:20:55] COMMAND: list albums
+[20-11-2025 22:21:29] COMMAND: list albums
+[20-11-2025 22:34:11] COMMAND: exit
+=============== 20-11-2025 22:34:11 ===============
+
