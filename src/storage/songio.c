@@ -20,8 +20,11 @@ song* sioParseOneLine(char* line)
 
     char title[256], artist[256], album[256], filepath[256];
     int length;
-    sscanf(line, "%255[^|]|%255[^|]|%255[^|]|%255[^|]|%d",title, artist, album, filepath, &length);
-
+    if(sscanf(line, "%255[^|]|%255[^|]|%255[^|]|%255[^|]|%d",title, artist, album, filepath, &length)!=5)
+    {
+        printf("[WARNING] Invalid song format\n");
+        return NULL;
+    }
     return sCreate(title, artist, album, filepath, length);
 }
 

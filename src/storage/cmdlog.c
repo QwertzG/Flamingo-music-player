@@ -119,7 +119,7 @@ void logDisplayHistory()
     int c=0;
     while(fioReadLine(file,buff,sizeof(buff))!=NULL)
     {
-        if(strstr(buff,"[COMMAND]")!=NULL)
+        if(strstr(buff,"COMMAND:")!=NULL)
         {
             printf("%s\n",buff);
             c++;

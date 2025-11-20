@@ -30,7 +30,7 @@ int aioSaveAll(albumll* albumlist, char* filepath)
         printf("[ERROR] Could not open albums file for writing %s\n",filepath);
         return -1;
     }
-    printf("# Total Albums: %d\n\n",albumlist->size);
+    fprintf(file,"# Total Albums: %d\n\n",albumlist->size);
     int asaved=0;
     aNode* temp=albumlist->head;
     while(temp!=NULL)
@@ -75,7 +75,7 @@ albumll* aioLoadAll(char* filepath, songll* songlist)
     int aloaded=0;
     while(fioReadLine(file,buff,sizeof(buff))!=NULL)
     {
-        if((buff[0]!='#')&&(buff[0]!='\0'))
+        if((buff[0]!='#')||(buff[0]!='\0'))
         {
             continue;
         }

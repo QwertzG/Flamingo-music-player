@@ -1,5 +1,6 @@
 #ifndef CMDLOG_H
 #define CMDLOG_H
+#include <stdio.h>
 #include <time.h>
 #include <string.h>
 

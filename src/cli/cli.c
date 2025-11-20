@@ -37,7 +37,7 @@ int cliInitialise(cli* cli)
         printf("[WARNING] Could not initialist logger\n");
     }
     printf("Loading songs from database...\n");
-    if(MLLoadAlbums(cli->library,"data/songs.txt")!=0)
+    if(MLLoadSongs(cli->library,"data/songs.txt")!=0)
     {
         printf("[ERROR] Could not load songs\n");
         return -1;
